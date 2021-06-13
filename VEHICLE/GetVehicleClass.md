@@ -33,6 +33,7 @@ Vehicle Classes:
 19: Military  
 20: Commercial  
 21: Trains  
+22: Open Wheel (Formula 1 Cars)
 char buffer[128];  
 std::sprintf(buffer, "VEH_CLASS_%i", VEHICLE::GET_VEHICLE_CLASS(vehicle));  
 char* className = UI::_GET_LABEL_TEXT(buffer);  
